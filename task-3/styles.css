@@ -1,0 +1,63 @@
+body{background-color: lavender;}
+
+.title{ background: url(school.png) no-repeat center;
+     background-size: cover;
+      padding: 200px; font-size: 70px;
+       text-align: center; font-family: 'Garamond', Courier, monospace;
+        color: black; -webkit-text-stroke: 1px rgb(255, 255, 255);}
+
+.quote{ font-family: Helvetica; 
+padding: 20px;
+background-color: rgb(9, 42, 53); color: whitesmoke; font-size: larger; } 
+
+.accusations{
+    background-color: lightblue; 
+    font-size: larger;
+    padding: 10px;
+}
+
+.table{margin-left: 400px; 
+font-size: large;
+ width:500px; height: 
+ 300px; text-align: center;
+  background-color: rgb(245, 158, 158); border: 3px  darkblue; border-style: double; }
+
+  .caption{color: darkblue; font-family: 'Courier New', Courier, monospace; font-weight: bold;}
+
+  .subheader{text-align: center; font-size: x-large; color: darkgreen;}
+
+  .criminal{font-size: larger;
+    padding: 10px; 
+background-color: darkgrey;}
+
+.header2, .form {background-color: rgb(128, 196, 184);
+font-size: larger; padding: 10px;
+} 
+
+input[type="text"],input[type="password"], input[type="email"], input[type="tel"]{  padding: 8px; width: 300px; display: block;}
+
+fieldset{
+    background-color: #fff;
+    border: 10px;
+    padding: 20px;
+    margin-bottom: 20px;}
+legend{
+    background-color: rgb(247, 186, 74);
+    border: 3px solid navy; 
+    padding: 10px;}
+
+
+label{
+    margin-bottom: 10px; padding: 5px;}
+
+input{margin-bottom: 10px;}
+
+.end{ 
+    font-size: larger;
+    background-color: lightblue;
+    padding: 10px;
+    margin: 5px;
+}
+
+footer{text-align: center; font-size: normal;
+}

@@ -1,0 +1,25 @@
+#first-div, #second-div{
+ background-color: #DDD; width: 500px; padding: 10px;}
+
+.first_card{
+    background-color: #f44336; width: auto; padding: 10px; color: white;}
+
+.second_card{ 
+    background-color:#ff9800; width: auto; padding: 10px; color: black;}
+
+.third_card{ 
+    background-color: #607d8b; width: auto; padding: 10px; color: white;}
+
+.examin_list{ 
+    background-color: #4CAF50; padding: 10px; color: white;}
+
+.list_title{ 
+    color: rgb(5, 22, 97);}
+
+.number_1, .number_2, .number_3, .number_4{
+    background-color: rgb(223, 223, 221); color: black; padding: 10px;}
+
+.ul_1, .ul_2, .ul_3, .ul_4{
+    background-color: rgb(24, 24, 24); color: white; padding: 5px;}
+
+

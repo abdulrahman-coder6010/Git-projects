@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Task 2 </title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body> 
+        <!--start-->
+        <div class="quotes">
+            <h1 class="heading">special quotes makes your life </h1> 
+            <blockquote class="first-quote">
+                <p>He that has eyes to see and ears to hear may convince himself that no mortal can keep a secret. 
+                    If his lips are silent, he chatters with his fingertips; 
+                    <br>
+                    <mark>betrayal oozes out of him at every pore</mark> </p>
+                    <cite>"SIGMUND FREUD"</cite>
+            </blockquote>
+            <br>
+            <blockquote class="second-quote">
+                <p>There are only two ways to live your life. <del>One as though nothing is a miracle.</del> <ins>The other as though everything is a miracle.</ins></p>
+                <cite>"Albert Einstein"</cite>
+            </blockquote>
+            <!--end of quotes-->
+        </div>
+        <br>
+        <div class="tables">
+        <table class="table1" border="1px">
+            <caption class="table1-caption">Plan of the week </caption>
+            <tr class="days">
+                <td class="th"> Days</td>
+                <td>Saturday</td>
+                <td>Sunday</td>
+                <td>Monday</td>
+                <td>Teusday</td>
+                <td>Wednesday</td>
+                <td>Thurusday</td>
+                <td>Friday</td>
+            </tr>
+            
+            <tr class="tasks">
+                <td class="th">Tasks</td>
+                <td>Studying Neuroscience</td>
+                <td>Studying HTML</td>
+                <td>Working out</td>
+                <td>Online Zoom lecture</td>
+                <td>Reading the Novel</td>
+                <td>Preparing HTML task</td>
+                <td rowspan="2">Rest</td>
+            </tr>
+
+            <tr class="duration">
+                <td class="th">Duration</td>
+                <td>11:00 am - 5:30 am </td>
+                <td>6:00 pm - 8:00 pm</td>
+                <td>6:30 am - 8:00 am</td>
+                <td>8:00 pm - 9:30 pm</td>
+                <td>11:00 pm - 12:00 am</td>
+                <td>9:00 pm - 12:00 am </td>
+            </tr>
+        </table>
+            <br>
+        <table border="1" width="1000" class="table2">
+                <caption class="table2-caption">Best books I have ever read </caption>
+                <colgroup>
+                    <col span="2" class="red">
+                    <col span="3" class="blue">
+                 </colgroup>
+                <tr>
+                    <th colspan="2">DEAN BURNETT books</th>
+                    <th colspan="3">GORGE ORWELL books</th>
+                </tr>
+                <tr>
+                    <td>The idiot brain</td>
+                    <td>The happy brain</td>
+                    <td>1984</td>
+                    <td>Animal Farm</td>
+                    <td>Down out in Paris and London</td>
+                </tr>
+        </table>
+            </div>
+            <!--end of tables-->
+            <br>
+        <div class="Be-Yourself">
+                <span class="b">B</span><span class="e">e</span>&nbsp;<span class="y">Y</span><span class="o">o</span><span class="u">u</span><span class="r">r</span><span class="s">s</span><span class="E">e</span><span class="l">l</span><span class="f">f</span>
+        </div>
+        <div class="form">
+            <h2>First Aid Training Course</h2>
+
+            <form name="register" method="GET" action="thankyou.html">
+                <fieldset class="personal">
+                    <legend>personal info</legend>
+                    <label for="name">Name</label>
+                    <input name="name" id="name" type="text" required placeholder="Type your Name">
+
+                    <label for="phone">Phone</label>
+                    <input id="phone" name="phone" type="tel">
+                    <hr>
+                    <label for="email">Email</label>
+                    <input name="email" id="email" type="email" required placeholder="test@example.com">  
+                    <label for="password">Password</label>     
+                    <input id="password" type="password" name="password" required minlength="8">
+                    <hr>
+                    <label>Gender</label>
+                    <br>
+                    <input type="radio" name="radiobutton" id="thisradio">
+                    <label for="thisradio">Male</label>
+                    <input type="radio" name="radiobutton" id="orradio">
+                    <label for="orradio">Female</label>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Other infos</legend>
+                    <label>Age</label>
+                    <br>
+                    <input type="radio" name="radiobuttons" id="radio">
+                    <label for="radio">&lt;18</label>
+                    <br>
+                    <input type="radio" name="radiobuttons" id="anyradio">
+                    <label for="anyradio">18-30</label>
+                    <br>
+                    <input id="thatradio" name="radiobuttons" type="radio">
+                    <label for="thatradio">&gt;30</label>
+                    <br>
+                    <hr>
+                    <label for="file">profile picture</label>
+                    <br>
+                    <input id="file" name="file" type="file" accept="images/*" multiple>
+                    <br>
+                    <hr>
+                    <label for="textarea">Notes</label>
+                    <br>
+                    <textarea id="textarea" name="textarea" cols="50" rows="15"></textarea>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Deal with infos</legend>
+                    <select id="selectlist" name="selectlist">
+                        <option>Whatsapp</option>
+                        <option>Facebook</option>
+                        <option>Email</option>
+                    </select>
+
+                    <button type="submit">Signup</button>
+                    <input type="reset">
+                    <br>
+                    <hr>
+                    <input id="checkbox" name="checkbox" type="checkbox" required> 
+                    <label for="checkbox"> I agree for the terms and conditions</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="andcheckbox">Remember me</label>
+                    <input id="andcheckbox" name="andcheckbox" type="checkbox">
+                </fieldset>
+            </form>
+        </div>
+        <!--end of form-->
+        <br>
+        <div class="iframe">
+            <iframe width="1000" height="562.5" src="https://www.youtube.com/embed/0u81TiwfS0w" frameborder="3" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <!--end of the iframe video-->
+        <br>
+        <div class="entities">
+            <h1 class="heading-entity">example for a div code <sub>in html</sub> <code></h1>
+            <p class="p-div">&lt;div class="num_div"&gt;</p>   
+            <p class="p-div">type any text here</p>
+            <p class="p-div">&lt;/div&gt;</p>
+        </div>
+
+        <br>
+    <footer> <p>Copyright<sup>&copy;</sup> for Abdulrahman Gamal in complier Team </p> </footer>
+    
+    <!--end-->
+
+    </body>
+    </html>
+    
+
+
+
+
+
+
+
+
+
+
+

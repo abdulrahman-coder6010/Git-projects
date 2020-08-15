@@ -1,0 +1,77 @@
+
+body{background-color: #000000; font-family: Arial, Helvetica, sans-serif;}
+
+.quotes{
+    background-color: lightgray;}
+
+.heading{
+padding: 20px; width: 500px; margin: 20px auto;}
+
+
+.first-quote,.second-quote, .tables, .Be-Yourself,.form,.iframe,.entities,footer {background-color: rgb(189, 188, 188); padding: 20px; width: 20px auto;}
+.first-quote, .second-quote{
+ padding: 10px; margin:auto;}
+
+
+.table1{
+ border: 5px solid #020f55; padding: 5px; width: 1100px; margin: 20px auto; text-align: center;}
+
+
+.table1-caption, .table2-caption{
+    color: blue; font-size: large;}
+
+.table2{
+    border: 5px solid #020f55; padding: 5px; width: 1100px; margin: 20px auto; text-align: center;}   
+.red{ background-color: rgb(245, 158, 158); color: black;}
+.blue{background-color: lightblue; color: black;}
+
+
+
+.th{font-weight: bold;}
+
+.days{background-color: rgb(28, 72, 160);color: #f5f6f7; border: 1px solid #6e79b5;}
+.tasks{background-color:rgb(60, 89, 168) ; color: rgb(7, 28, 87);}
+.duration{background-color: #7283c2; color: #020f55;}
+
+.Be-Yourself{font-family:algerian; font-size: 55px; text-align: center; background-color: lightgray; padding: 50px;}
+.b,.e{color: #9400D3;}
+.y{color: #4B0082;}
+.o{color: #0000FF;}
+.u{color: #00FF00;}
+.r{color: #FFFF00;}
+.s,.E{color: #FF7F00;}
+.l,.f{color: #FF0000;}
+
+
+
+
+fieldset{
+    background-color: #fff;
+    border: 10px;
+    padding: 20px;
+    margin-bottom: 20px;}
+legend{
+    background-color: rgb(247, 186, 74);
+    border: 3px solid navy; 
+    padding: 10px;}
+
+
+label{
+    margin-bottom: 10px; padding: 5px;}
+
+input{margin-bottom: 10px;}
+
+input[type="text"],input[type="password"], input[type="email"], input[type="tel"]{  padding: 8px; width: 300px; display: block;}
+
+hr{border: 1px solid #eee}
+
+
+
+.heading-entity{
+    text-align: center; font-size: 50px;
+}
+
+.p-div{font-size: 30px;}
+
+footer{text-align: center;}
+
