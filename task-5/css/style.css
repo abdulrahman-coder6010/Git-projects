@@ -1,0 +1,127 @@
+*{
+    font-family: "comic sans ms"; transition: .7s ease-in-out all; top: 74px;
+}
+#navbar{
+    background: rgb(34, 34, 34); padding: 10px; position: fixed; width: 100%; top: 0px; left: 0px;
+}
+
+li{
+    display: inline; padding: 20px;
+}
+
+a{
+    text-decoration: none; color: rgb(255, 255, 255); 
+}
+
+.menu{
+    text-align: right; float: right; 
+}
+
+.icons:hover{background-color: gray;}
+
+.home{
+    background-color: green; padding: 20px; 
+}
+
+.slidebar{
+    margin: 100px 0px; 
+}
+
+.about, .news, .contact, .blog{
+    display: block; width: 100px; padding: 15px; font-size: 20px; border-radius: 5px; left: -95px;
+}
+
+.blog{background-color: green; z-index: 1; position: fixed; }
+
+.about{
+    background-color: rgb(40, 31, 119); z-index: 2; margin: 60px 0px; position: fixed;
+}
+.news{
+    background-color:red; z-index: 3;  margin: 120px 0px; position: fixed;
+}
+.contact{background-color: gray; z-index: 4;  margin: 180px 0px; position: fixed;}
+
+.blog:hover, .about:hover, .news:hover, .contact:hover {
+left: 0px;
+}
+.sticky{
+    margin: 10px 50px; 
+}
+
+dt{
+    color:white; background-color: black; padding: 10px; margin: 10px; position: sticky; top: 74px;
+}
+
+.background{
+    background: url(../images/background.jpg) no-repeat center; 
+    background-size: cover;
+    padding: 200px;
+    top: 74px;
+    height: 120px;
+}
+
+.quote{
+    background-color: gray; color: black; max-height: 25px; overflow: hidden; padding: 20px; top: 74px;
+}
+
+.quote:hover{
+    max-height: 100px;
+}
+
+.background:after{
+    content: "If the human brain were so simple that we could understand it, we would be so simple that we couldn't."; display: block; margin: 70px -50px; background-color: red;  padding: 40px; opacity: 0.8; visibility: hidden;}
+
+
+.background:hover:after{
+    visibility: visible;
+}
+
+.relations{
+    background: url(../images/neuro.jpg);
+    background-size: cover;
+    padding: 70px;
+    margin: 10px; color: white; font-size: 20px; 
+}
+
+.parent > div{
+    padding: 20px; background-color: purple; width: 500px; opacity: 0.7; 
+}
+
+.grand-child { background-color: red; padding: 10px; 
+}
+
+.parent div~p {
+background-color: green; padding: 20px; 
+}
+
+.sibling1:hover .parent~p{
+    background-color: gray; 
+}
+
+.wallpaper{
+    background: url(../images/brain.jpg);
+    background-size: cover; padding: 100px;
+}
+
+.text::first-line{
+    background-color: rgb(133, 0, 110); 
+}
+.text:first-letter{
+    font-size: 40px;
+    background-color: rgb(255, 77, 225);
+    border-radius: 50px; margin: 5px; padding: 5px;
+}
+
+.direct-child .sibling:hover~p {
+    background: gray;
+}
+
+
+
+
+
+
+
+
+
+
