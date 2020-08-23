@@ -1,5 +1,5 @@
 li{
-    display: inline;
+    display: inline; padding: 20px;
 }
 a{
     text-decoration: none; color: white; 
@@ -8,16 +8,16 @@ a{
 .menu{
     text-align: right; float: right; word-spacing: 20px; 
 }
-.list2:hover { background-color: black; padding: 20px;
+.list2:hover { background-color: black; 
 }
 .list3:hover {
-    background-color: black; padding: 20px;
+    background-color: black; 
 }
 .list4:hover {
-    background-color: black; padding: 20px;
+    background-color: black; 
 }
 .main-menu{
-    background: rgb(73, 73, 73); padding: 10px; position: fixed; width: 100%;
+    background: rgb(73, 73, 73); padding: 10px; position: fixed; width: 100%; top: 0px; left: 0px;
 }
 
 .list1{
