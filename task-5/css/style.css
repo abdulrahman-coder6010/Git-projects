@@ -2,7 +2,7 @@
     font-family: "comic sans ms"; transition: .7s ease-in-out all; top: 74px;
 }
 #navbar{
-    background: rgb(34, 34, 34); padding: 10px; position: fixed; width: 100%; top: 0px; left: 0px;
+    background: rgb(34, 34, 34); padding: 10px; position: fixed; width: 100%; top: 0px; left: 0px; z-index: 1;
 }
 
 li{

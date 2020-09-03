@@ -4,9 +4,12 @@ li{
 a{
     text-decoration: none; color: white; 
 }
+.main-menu{
+    z-index: 1;
+}
 
 .menu{
-    text-align: right; float: right; word-spacing: 20px; 
+    text-align: right; float: right; word-spacing: 20px;
 }
 .list2:hover { background-color: black; 
 }
