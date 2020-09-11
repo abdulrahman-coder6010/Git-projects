@@ -115,7 +115,7 @@ overflow-x: hidden;
 
 /*hero section*/
 #hero{
-    background-image: url(/images/background1.jpg);
+    background-image: url(../images/background1.jpg);
     background-size: cover;
     background-position: top center;
     position: relative;
