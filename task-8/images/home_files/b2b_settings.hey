@@ -1,0 +1,22 @@
+
+
+
+
+
+setTimeout(function(){
+if (window.heyoya == undefined){
+    window.heyoya={};
+    
+        window.heyoyaStructure = {};window.heyoyaStructure.heyoyaRootUrl = { rootUrl: "" };if (typeof Object.freeze == "function"){Object.freeze(window.heyoyaStructure);Object.freeze(window.heyoyaStructure.heyoyaRootUrl);}if (typeof Object.seal == "function"){Object.seal(window.heyoyaStructure);Object.seal(window.heyoyaStructure.heyoyaRootUrl);}
+    
+
+    
+
+    
+            (function() {var heyoyaSettings = window.heyoyaSettings = {};heyoyaSettings.isStore = false; heyoyaSettings.rt = 60000;heyoyaSettings.width = 1000;heyoyaSettings.title = 'Comments';heyoyaSettings.stit = 1;heyoyaSettings.sl='en';heyoyaSettings.titleColorText = '#c5b8a0';heyoyaSettings.titleColorBackground = '#3e2b26';heyoyaSettings.mainColor = '';heyoyaSettings.logoPath = '';heyoyaSettings.ppPath = '';heyoyaSettings.affId = 'Gn5scgLPqG';heyoyaSettings.sads=0;heyoyaSettings.sadscid=32767;heyoyaSettings.swdt=0;heyoyaSettings.smachl=1;heyoyaSettings.srachl=1;heyoyaSettings.macht='Voice your comment.. We hear you';heyoyaSettings.racht='';heyoyaSettings.ssacht=1;heyoyaSettings.sacht='';heyoyaSettings.srsacht=1;heyoyaSettings.rsacht='';heyoyaSettings.fonts='';heyoyaSettings.pec=0;heyoyaSettings.wa=0;heyoyaSettings.recordingIconsColor='#ae8b31';heyoyaSettings.linksColor='#ae8b31';heyoyaSettings.textColor='#3e2b26';heyoyaSettings.cardsColor='#eceae6';heyoyaSettings.buttonsColor='#ae8b31';heyoyaSettings.asi='44081';heyoyaSettings.awsw=1;heyoyaSettings.sdwl=1;heyoyaSettings.plf=0;heyoyaSettings.ssb=0;heyoyaSettings.sva=0;heyoyaSettings.nva=0;heyoyaSettings.ciab='';heyoyaSettings.gc='';var heyoya = document.createElement('script');heyoya.type = 'text/javascript';heyoya.async = true;heyoya.src = '//commerce-static.heyoya.com/b2b/b2b_loader.hey?affId=Gn5scgLPqG';var script = document.getElementsByTagName('script')[0];script.parentNode.insertBefore(heyoya, script);})();
+    
+
+}
+}, 10);
+
+

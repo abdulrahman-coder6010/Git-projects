@@ -1,0 +1,609 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+
+html{
+    padding: 0;
+    margin: 0;
+    font-family: 'rufina';
+    scroll-behavior: smooth;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*header section*/
+#header{
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: auto;
+}
+#header .header{
+    min-height: 8vh;
+    background-color:white;
+    transition: .3s ease background-color;
+}
+#header .nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    max-width: 1300px;
+    padding: 0 10px;
+}
+#header .nav-list ul{
+list-style: none;
+background-color:transparent;
+position: initial;
+display: block;
+height: auto;
+width: fit-content;
+left: 0;
+top: 0;
+justify-content: center;
+align-items: center;
+z-index: 1;
+overflow-x: hidden;
+}
+
+#header .nav-list ul a{
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    padding: 20px;
+    display: block;
+}
+
+#header .nav-list ul .nav2:hover, #header .nav-list ul .nav3:hover, 
+#header .nav-list ul .nav4:hover, #header .nav-list ul .nav5:hover{
+    color: #C5B8A0 !important;
+}
+#header .nav-list ul li{
+    display: inline-block;
+}
+.nav1{
+    background-color:#c5b8a0;
+    border-radius: 30px;
+    color: black;
+}
+.nav1:hover{
+    background-color: #7c6325;
+}
+.brand h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: black;
+}
+.brand h1 span{
+    color: #C5B8A0;
+}
+/*end header section*/
+
+/* banners section*/
+.banner1, .banner2, .banner3{
+height: 100vh;
+width: 100%;
+position: absolute;
+left: 0;
+top: 0;
+overflow: hidden;
+}
+
+.img{
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: zoom-in 5s linear infinite;
+}
+
+.text-box {
+    width: 100%;
+    position:absolute;
+    top: 130px;
+    left: 30px;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'rufina';
+}
+.text-box span{
+    text-transform: none;
+}
+
+.text-box h1{
+    font-size: 120px;
+    font-weight: 30;
+    margin-top: -20px;
+}
+
+.text-box h3{
+    font-size: 40px;
+    margin-top: 40px;
+    font-weight: 25;
+}
+.text-box p{
+    font-size: 20px;
+    font-family: 'Roboto Slab';
+    margin-top: -50px;
+    font-weight: 25;
+}
+
+.banner1{
+    animation: slide1 12s linear infinite;
+}
+.banner2{
+    animation: slide2 12s linear infinite;
+}
+.banner3{
+    animation: slide3 12s linear infinite;
+}
+/*end banners section*/
+/*about section*/
+#services .services{
+    flex-direction: column;
+    text-align: center;
+    max-width: 1500px;
+    margin-top: 300px;
+    padding: 100px 0;
+}
+#services .service-top .section-title1{
+    font-size: 90px;
+    font-weight: 17;
+    margin: 0px;
+    margin-bottom: 16px;
+    padding-top: 475px;
+    margin-top: 0px;
+    padding-bottom: 46px;
+}
+#services .service-top p{
+    font-size: 15px;
+    font-weight: 900;
+    margin-top: -72px;
+    margin-bottom: 92px;
+    color: #b9a889;
+    text-transform: uppercase;
+}
+#services .service-top{
+    margin: 0 auto;
+    background: url(../images/icons8-musical-score-96.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#about .about{
+    flex-direction: row;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: -252px;
+}
+#about .col-left{
+    width: 3000px;
+    height: 400px;
+    padding-left: 60px;
+    
+}
+#about .col-right{
+    width: 100%;
+    text-align: left;
+    padding: 30px;
+    text-align: center;
+}
+#about .col-right h1{
+    font-size: 50px;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+
+#about .col-right h2{
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    margin-bottom: 10px;
+    color: #b9a889;
+    font-size: 15px;
+    font-weight: 900;
+    text-align: center;
+}
+#about .col-right p{
+    margin-bottom: 20px;
+    font-size: 21px;
+    text-align: left;
+    color: #615d5b;
+}
+#about .col-right .cta{
+    margin-bottom: 50px;
+    padding: 20px 30px;
+    font-size: 20px;
+    color: black;
+    background-color: #ae8b31 ;
+    border-radius: 30px;
+    text-transform: uppercase;
+    
+}
+#about .col-right .cta:hover{
+    background-color: #b4a378;
+    transition:  ease;
+}
+#about .col-left .about-img{
+   height: 109%;
+   width: 100%;
+   margin-left: -80px;
+    position: relative;
+    border: 10px solid rgb(255, 255, 255);
+}
+
+#about .col-left .about-img::after{
+content: "";
+position: absolute;
+border: 5px solid #c5b8a0;;
+height: 41%;
+width: 21%;
+left: 616px;
+border-bottom: hidden;
+border-left: hidden;
+top: -16px;
+}
+/*end about section*/
+/*programs section*/
+#programs .programs .leftimg img{
+margin: 0 auto;
+padding-left: 141px;
+}
+#programs .programs .leftimg{
+    position: relative;
+}
+
+#programs .programs .righttext{
+    height: 486px;
+    margin-left: 15px;
+    position: relative;
+}
+#programs .programs .righttext h1{
+    font-size: 48px;
+    padding-bottom: 100px;
+    height: 0;
+    text-align: center;
+    margin-top: 7px;
+}
+#programs .programs .righttext p{
+    padding-bottom: 100px;
+    text-align: center;
+    font-size:21px;
+    font-weight:550 ;
+    cursor: pointer;
+
+    
+}
+
+#programs .programs .righttext p::after{
+    content: url(../images/icons8-forward-24.png) ;
+  background-size: 100px !important;
+  width: 40px !important;
+ 
+  visibility: visible;
+  display: inline-block;
+    
+}
+#programs .programs .leftimg::after{
+content: "";
+position: absolute;
+border: 6px solid#c5b8a0;;
+height: 41%;
+width: 21%;
+left: 127px;
+border-bottom: hidden;
+border-right: hidden;
+top: -14px;
+}
+
+#programs .programs .righttext p:hover{
+    color: #ae8b31;
+    transition: .5s ease;
+}
+/*end programs section*/
+/*services section*/
+    
+
+#services .services{
+    flex-direction: column;
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+#services .service-top .section-title{
+    font-size: 90px;
+    font-weight: 17;
+    margin: 75px auto;
+    margin-top: 75px;
+    background: url(../images/icons8-musical-score-96.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+}
+
+#services .text{
+    text-transform: uppercase;
+}
+
+#service .service-top{
+    max-width: 500px;
+    margin: 0 auto;
+}
+#service .service-top .p{
+    margin-bottom: 3px;
+}
+#services .service-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: -50px;
+}
+#services .service-item{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0;
+    overflow: hidden;
+    flex-basis: 16%;
+    margin: 2%;
+    width: 500px;
+    height: 375px;
+    
+}
+
+
+#services .service-bottom .icon img{
+    height: 73px;
+    width: 73px;
+    margin-bottom: 2px;
+    background: #ae8b31;
+    
+    border-radius: 50px;
+    padding: 20px;
+}
+
+#services .service-bottom .icon img:hover{
+    background-color: #c5b8a0;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+#services .service-item h2{
+    font-size: 15px;
+    color: black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    width: 114px;
+    
+}
+#services .service-item p{
+    color: #615d5b;
+    font-weight: bold;
+    margin-top: -3.5px;
+    font-size: 15px;
+    line-height: 1.9rem;
+    width: 140px;
+}
+
+#services .service-item .long{
+    width: 176px;
+    left: 30px;
+    margin-top: -3.5px;
+    font-size: 15px;
+    line-height: 1.9rem;
+}
+/*end services section*/
+/*contact section*/
+#contact .contact{
+    flex-direction: column;
+    max-width: 1200px;
+    margin: -65px auto;
+    padding: 100px 0;
+    align-items: center;
+    justify-content: center;
+    min-height: 20vh;
+}
+#contact .contact .section-title{
+    font-size: 90px;
+    background: url(../images/icons8-musical-score-96.png) no-repeat;
+    background-size: contain;
+    
+    background-position: center;
+    text-transform: capitalize;
+    margin-top: -180px;
+    padding: 80px;
+    margin-bottom: -10px;
+}
+#contact .contact p{
+    font-size: 15px;
+    font-weight: 900;
+    margin-top: -72px;
+    margin-bottom: 92px;
+    color: #b9a889;
+    text-transform: uppercase;
+}
+#contact .contact-items{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 20px;
+}
+#contact .contact-item{
+    width: 80%;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 18px 0 #0000002c;
+    flex-direction: row;
+    transition: .3s ease box-shadow;
+}
+#contact .contact-item:hover{
+    box-shadow: 0 0 5px 0 #0000002c ;
+}
+#contact .contact-item .icon{
+width: 100px;
+height: 100px;
+margin: 0 auto;
+margin-bottom: 10px;
+}
+#contact .contact-item .icon img{
+    object-fit: contain;
+    background-color: transparent;
+}
+#contact .contact-item .icon img:hover{
+    background-color: transparent;
+}
+#contact .contact-item .contact-info{
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+}
+#contact .contact-info h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+#contact .contact-info h2{
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-weight: 500;
+
+}
+/*end contact section*/
+/*Footer section*/
+#footer{
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    left: 0;
+    min-width: 1263px;
+}
+#footer .footer{
+    min-height: 200px;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+#footer h2{
+    color: #b4a378;
+    font-weight: 500;
+    font-size: 1.8rem;
+    letter-spacing: .2rem;
+    margin-top: -36px;
+    margin-bottom: 10px;
+
+}
+#footer .social-icon{
+    display: flex;
+    margin-bottom: 30px;
+}
+#footer .social-item{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 5px;
+    margin-right: 34px;
+}
+#footer .social-item img{
+    filter: grayscale(1);
+    transition: .3s ease filter;
+}
+#footer .social-item img:hover{
+    filter: grayscale(0);
+}
+#footer p{
+    color: white;
+    font-size: 1.3rem;
+
+}
+/*end Footer section*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes zoom-in{
+    100%{
+        width: 120%;
+    }
+}
+@keyframes slide1{
+    0%{
+        visibility: visible;
+    }
+    33%{
+        visibility: hidden;
+    }
+    66%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+}
+
+@keyframes slide2{
+    0%{
+        visibility: hidden;
+    }
+    33%{
+        visibility: hidden;
+    }
+    66%{
+        visibility: visible;
+    }
+    100%{
+        visibility: hidden;
+    }
+}
+
+@keyframes slide3{
+    0%{
+        visibility: hidden;
+    }
+    33%{
+        visibility: hidden;
+    }
+    66%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+}

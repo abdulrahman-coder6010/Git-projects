@@ -1,0 +1,13 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "HacenPromoterMd";
+  src: url("HacenPromoterMd.eot"); /* IE9 Compat Modes */
+  src: url("HacenPromoterMd.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("HacenPromoterMd.otf") format("opentype"), /* Open Type Font */
+    url("HacenPromoterMd.svg") format("svg"), /* Legacy iOS */
+    url("HacenPromoterMd.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("HacenPromoterMd.woff") format("woff"), /* Modern Browsers */
+    url("HacenPromoterMd.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
