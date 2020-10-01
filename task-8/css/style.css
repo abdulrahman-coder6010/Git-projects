@@ -502,7 +502,7 @@ margin-bottom: 10px;
 /*end contact section*/
 /*Footer section*/
 #footer{
-    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    background-color:  #302a1d;
     left: 0;
     min-width: 1263px;
 }
