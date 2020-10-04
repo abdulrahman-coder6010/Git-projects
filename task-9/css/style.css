@@ -1,0 +1,195 @@
+*{
+    font-family: "comic sans ms"; transition: .7s ease-in-out all; top: 74px;
+}
+#navbar{
+    background: rgb(34, 34, 34); padding: 10px; position: fixed; width: 100%; top: 0px; left: 0px; z-index: 1;
+}
+
+#navbar li a img{
+    width: 30px;
+}
+
+.search{
+    float: right; padding: 10px;
+}
+.search input{
+    width: 243px;
+    height: 40px;
+    float: left;
+}
+
+.search svg{
+    top: 0;
+    height: 30px;
+}
+.search svg:hover{
+    cursor: pointer;
+}
+#navbar li a{
+    display: inline; padding: 20px;
+}
+
+#navbar li a:hover{
+    background-color: gray;
+}
+
+li{
+    display: inline; padding: 20px;
+}
+
+a{
+    text-decoration: none; color: rgb(255, 255, 255); 
+}
+
+.menu{
+    text-align: right; float: right; 
+}
+
+
+
+.home{
+    background-color: green; padding: 20px; 
+}
+#navbar .home:hover{
+    background-color: green; 
+}
+
+.slidebar{
+    margin: 100px 0px; 
+}
+
+.about, .news, .contact, .blog{
+    display: block; width: 100px; padding: 15px; font-size: 20px; border-radius: 5px; left: -95px;
+}
+
+.blog{background-color: green; z-index: 1; position: fixed; }
+
+.about{
+    background-color: rgb(40, 31, 119); z-index: 2; margin: 60px 0px; position: fixed;
+}
+.news{
+    background-color:red; z-index: 3;  margin: 120px 0px; position: fixed;
+}
+.contact{background-color: gray; z-index: 4;  margin: 180px 0px; position: fixed;}
+
+.blog:hover, .about:hover, .news:hover, .contact:hover {
+left: 0px;
+}
+.sticky{
+    margin: 10px 50px; 
+}
+
+dt{
+    color:white; background-color: black; padding: 10px; margin: 10px; position: sticky; top: 74px;
+}
+
+.background{
+    background: url(../images/background.jpg) no-repeat center; 
+    background-size: cover;
+    padding: 200px;
+    top: 74px;
+    height: 120px;
+}
+
+.quote{
+    background-image: linear-gradient(60deg, crimson 0%, blue 100%); color: black; padding: 20px; top: 74px;
+}
+
+.details{
+    background-color: crimson; color: black; padding: 20px; padding-bottom: 10px; margin-top: 10px; opacity: .9;
+}
+.details ul li{
+    display: block;
+}
+.relations{
+    background: url(../images/neuro.jpg);
+    background-size: cover;
+    padding: 70px;
+    margin: 10px; color: white; font-size: 20px; 
+}
+
+.parent > div{
+    padding: 20px; background-color: purple; width: 500px; opacity: 0.7; 
+}
+
+.grand-child { background-color: red; padding: 10px; 
+}
+
+.parent div~p {
+background-color: green; padding: 20px; 
+}
+
+.sibling1:hover .parent~p{
+    background-color: gray; 
+}
+
+.direct-child .sibling:hover~p {
+    background: gray;
+}
+
+.wallpaper{
+    background: url(../images/brain.jpg);
+    background-size: cover; padding: 100px;
+}
+
+.wallpaper h2{
+    background-color: white;
+    color: black;
+    padding: 15px;
+    text-align: center;
+
+
+    box-shadow: 5px 5px 8px crimson, 
+                -5px -5px 8px blue;
+    
+    text-shadow: 8px 8px 8px  rgb(4, 82, 69);
+
+                
+    
+}
+
+
+
+.wallpaper img{
+    margin: 18px 0px 0px 450px;
+    width: 143px;
+    height: 140px;
+}
+
+.wallpaper img:hover{
+    transform: scale(1.5,1.5) rotate(360deg);
+}
+
+.background img{
+    perspective: 600px;
+    
+}
+
+
+.dn{
+    width: 100%;
+    height: 100%;
+    margin: 30px;
+    
+}
+
+
+
+
+.secondimg{
+    width: 25%;
+    top: 20;
+    left: 30;
+}
+
+.background img:hover{
+    transform: translate3d(200px,-100px,200px) scale3d(3,3,4); 
+}
+
+
+
+
+
+
+
+

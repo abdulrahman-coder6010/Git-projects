@@ -56,6 +56,7 @@ justify-content: center;
 align-items: center;
 z-index: 1;
 overflow-x: hidden;
+
 }
 
 #header .nav-list ul a{
@@ -331,7 +332,8 @@ top: -14px;
     text-align: center;
     max-width: 1500px;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 0;
+    
 }
 
 #services .service-top .section-title{
@@ -504,13 +506,14 @@ margin-bottom: 10px;
 #footer{
     background-color:  #302a1d;
     left: 0;
-    min-width: 1263px;
 }
 #footer .footer{
     min-height: 200px;
     flex-direction: column;
     padding-top: 50px;
     padding-bottom: 10px;
+    padding: 0;
+    width: 100%;
 }
 #footer h2{
     color: #b4a378;
